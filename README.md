@@ -1,7 +1,7 @@
 # satisifactory_client_configurator
-> Edits files required for clients to dedicated servers.
+> Simplifies Editing files required for clients to join dedicated servers.
 
-Edits files according to (https://satisfactory.fandom.com/wiki/Multiplayer) with multiplayer approvements.
+Editing of files according to (https://satisfactory.fandom.com/wiki/Multiplayer) with multiplayer approvements.
 
 Keybinds F6 to console in order to join dedicated servers:
 ```
