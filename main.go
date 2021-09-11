@@ -107,7 +107,7 @@ func main() {
 	if err != nil {
 		fmt.Println(string(colorRed), "Error setting title of terminal.")
 	}
-	cmd2 := exec.Command("cmd", "/C", "mode con:cols=140 lines=20")
+	cmd2 := exec.Command("cmd", "/C", "mode con:cols=130 lines=20")
 	err2 := cmd2.Run()
 	if err2 != nil {
 		fmt.Println(string(colorRed), "Error setting size of terminal.")
