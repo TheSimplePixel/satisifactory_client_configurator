@@ -1,4 +1,4 @@
-# satisifactory_client_configurator
+# satisifactory_patcher
 > Simplifies Editing files required for clients to join dedicated servers.
 
 Editing of files according to (https://satisfactory.fandom.com/wiki/Multiplayer) with multiplayer approvements.
