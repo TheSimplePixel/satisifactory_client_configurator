@@ -122,7 +122,7 @@ func (this *UIMainMainWindow) SetupUI(MainWindow *widgets.QMainWindow) {
 	font = gui.NewQFont()
 	font.SetFamily("Segoe UI")
 	this.Status.SetFont(font)
-	this.Status.SetStyleSheet("color: rgb(180, 180, 180);")
+	this.Status.SetStyleSheet("color: rgb(255, 127, 127);")
 	this.Version = widgets.NewQLabel(this.Footer, core.Qt__Widget)
 	this.Version.SetObjectName("Version")
 	this.Version.SetGeometry(core.NewQRect4(570, 0, 31, 21))
@@ -143,6 +143,6 @@ func (this *UIMainMainWindow) RetranslateUi(MainWindow *widgets.QMainWindow) {
 	this.Image.SetText(_translate("MainWindow", "", "", -1))
 	this.PushButton.SetText(_translate("MainWindow", "Patch Satisfactory", "", -1))
 	this.LabelCredits.SetText(_translate("MainWindow", "Registered by: github.com/TheSimplePixel", "", -1))
-	this.Status.SetText(_translate("MainWindow", "Status: Patched", "", -1))
+	this.Status.SetText(_translate("MainWindow", "Status: Not Patched", "", -1))
 	this.Version.SetText(_translate("MainWindow", "v1.0.0", "", -1))
 }
