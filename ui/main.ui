@@ -384,10 +384,10 @@ QPushButton:pressed {
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(180, 180, 180);</string>
+      <string notr="true">color: rgb(255, 127, 127);</string>
      </property>
      <property name="text">
-      <string>Status: Patched</string>
+      <string>Status: Not Patched</string>
      </property>
     </widget>
     <widget class="QLabel" name="version">
